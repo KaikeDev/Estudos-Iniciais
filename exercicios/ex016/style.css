@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: white;
+    width: 600px; /*Largura */
+    padding: 10px;
+    margin: auto; /*o texto sempre vai ficar no meio */
+    color: black;
+    border-radius: 10px; /*Borda fica redonda*/
+    box-shadow: 5px 5px 5px #4091fa83 ; /*sombra*/
+ }
+h1{
+    text-align: center;
+   color: #20477A;
+   text-shadow: 1px 1px 2px #17345af6; /*sombra no tetxo */
+}
+h2{
+  color: #8CBCFB;
+}
+body{
+
+    background-image: linear-gradient(to right, #4090FA, #3473C7);
+}
+
+p{
+    text-align: justify;
+}
