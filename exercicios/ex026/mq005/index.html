@@ -11,8 +11,10 @@
     />
 
     <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/media-query.css">
   </head>
-  <body>
+  <body onresize="mudouTamanho()">
+
     <header>
       <h1>Meu site</h1>
       <i id="burguer" class="material-icons" onclick="clickMenu()">menu </i>
@@ -64,6 +66,14 @@
         } else {
           itens.style.display =
             "block"; /*O menu estava em display:block, porem com essa função quando nós clicarmos no menu ele vai virar display:block */
+        }
+      }
+
+      function mudouTamanho(){
+        if (window.innerWidth >= 768){
+          itens.style.display = 'block';
+        }else{
+          itens.style.display = 'none';
         }
       }
     </script>
